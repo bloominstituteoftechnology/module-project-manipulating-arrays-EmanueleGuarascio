@@ -32,30 +32,17 @@
     // 🧠 As you have done in the past, declare a variable before you start looping, to accumulate the result.
     function sumNumsFor(nums) {
       let totalOne = 0;
-      let total = 0;
-
      
-      for (i = 0; i <= nums.length; i++ ) {
+     for (i = 0; i <= nums.length; i++ ) {
         if (nums[i] === 13) {
           return "I'm too superstitious!"
-        }
-      }
-
-        for (i = 0; i <= nums.length; i++ ) {     
-          if (nums[i] === undefined) {
-            return 0;
-          }
-        }
-      //  } else {
-   //       while (i < nums.length) {
-     //         totalOne = totalOne + nums[i];
-       //       i++
-    //        }
-      //    return totalOne
-        
+        } else if (nums[i] === undefined) {
+          return 0;
         } 
+      }     
+    } 
         
-
+      
 
  //   }
 
